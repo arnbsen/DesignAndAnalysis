@@ -40,7 +40,7 @@ int main(){
 	scanf("%d",&n);
 	printf("Enter the array elements\n");
 	for(int i = 1; i<=n;i++){
-		printf("Enter the values for a[%d]: ",i);
+        //printf("Enter the values for a[%d]: ",i);
 		scanf("%d",&arr[i]);
 	}
 	merge_sort(arr,1,n);

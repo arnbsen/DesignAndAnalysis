@@ -14,9 +14,7 @@ void max_min(int i, int j, int *max, int *min){
 		}else{
 			*max = a[i];
 			*min = a[j];
-
 		}
-	
 	}else{
 		int max1;
 		int min1;
@@ -25,18 +23,11 @@ void max_min(int i, int j, int *max, int *min){
 		max_min(mid+1,j,&max1,&min1);
 		if(*max<max1){
 			*max = max1;
-					
 		}
 		if(*min>min1){
 			*min = min1;
-			
 		}
-
-
-
-
 	}
-	
 }
 int main(){
 	

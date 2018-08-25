@@ -20,6 +20,9 @@ void kmp_failure(char* p){
 		}
 	}
 }
+int kmp(char* t, char* p){
+    
+}
 int main(){
 	char t[100],p[100];
 	printf("Enter the text\n");

@@ -71,7 +71,7 @@ int main(){
 		for(i=1;i<=n;i++){
 			if(col[i]==1&&adj[u][i]==1){
 				col[i] = 2;
-				d[i] = d[u] + 1;
+				d[i] = d[u] + 6;
 				pi[i] = u;
 				enqueue(i);
 			}
@@ -81,5 +81,8 @@ int main(){
 		k = k + 1;
 
 	}
+    for(int i=1;i<=n;i++){
+        printf("%d ",d[i]);
+    }
 	printf("\n");
 }
